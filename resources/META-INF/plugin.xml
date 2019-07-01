@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>uk.co.probablyfine.gardening.GardeningWindow</id>
+    <name>Gardening Windows</name>
+    <description>Lol.</description>
+    <version>2.0</version>
+    <vendor>Alex Wilson</vendor>
+
+    <idea-version since-build="141.0"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Gardening" icon="/gardening/leaf.png" anchor="right" factoryClass="uk.co.probablyfine.gardening.GardeningWindowFactory"/>
+    </extensions>
+
+</idea-plugin>
